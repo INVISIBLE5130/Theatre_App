@@ -2,22 +2,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #E63946;
+    background: rgba(112, 0, 0, 0.75);
+    padding: 1% 0;
+    border-radius: 100px;
+    width: 180vh;
+    box-shadow: 0 5px 50px black;
 }
 
 .logo {
-    height: 80px;
-    width: 80px;
+    width: 60px;
 }
 
 .Menu .link{
     margin-left: 3%;
-    color: #F1FAEE;
+    color: white;
+    transition-duration: 0.25s;
 }
 
 .Menu .link:hover{
     text-decoration: none;
-    border-bottom: 1px solid #F1FAEE;
+    border-bottom: 1px solid white;
     transform: scale(1.5);
     transition-duration: 0.25s;
 }

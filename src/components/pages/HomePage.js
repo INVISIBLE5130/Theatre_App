@@ -1,46 +1,27 @@
 import Menu from '../Menu';
 import {Component} from "react";
 import React from "react";
-import logo from "../../images/logo.png";
-import image1 from "../../images/image1.png";
+import theater from "../../images/theater.jpg";
 import '../../styles/HomePage.css';
 
 class App extends Component {
-    constructor(props){
-        super(props);
-        this.state={
-            selectedValue: 'Nothing selected'
-        }
-    }
 
     render() {
         return (
             <div className="HomePage">
                 <Menu/>
                 <div className="text">
-                    <h3>Донорство крови среди животных — кровь вашего питомца очень нужна</h3>
-                    <img src={image1} alt={"logo"} className='image1'/>
-                    <p>Донорами могут стать не только люди, но и кошки с собаками. Как и у людей, у животных порой необходимо донорство. Эта процедура спасает многих кошек и собак, продлевает их жизнь на радость хозяев.</p>
-                    <p>Мы часто слышим, что доноров крови не хватает, а можете себе представить, как тяжело найти подходящего донора для своего питомца? Многие люди просто не знают о такой возможности.</p>
-                    <h4>Какие животные могут стать донорами?</h4>
-                    <p>Острая необходимость в переливании крови у животных возникает при сложных операциях. Также питомцы нуждаются в крови при получении травм в результате ДТП, падений с высоты, при заболеваниях сердечно-сосудистой системы, драках и нападениях со стороны других животных. Донором может стать не любой питомец, даже если он здоров и молод.</p>
-                    <h5>Собака может стать донором крови, если она:</h5>
-                    <p>- Старше одного года и младше восьми лет. <br/>- Вакцинирована.<br/>- Не имеет хронических заболеваний.<br/>- Достаточно упитана и обработана от <br/>паразитов. </p>
-                    <p>Порода и размер собаки роли не играют, маленькая болонка вполне может стать донором крови для большого пса. Желательно, чтобы собака имела уравновешенный характер — ее добрый нрав имеет большое значение при прямом переливании.</p>
-                    <p>Нельзя сдавать кровь собаке в период течки, беременности и кормления. </p>
-                    <p>Кровь собак очень сильно отличается от крови людей. Ее разделяют на 12 групп, но до конца исследованы и идентифицированы лишь восемь. Собачья кровь не имеет резус-фактора, следовательно не может вызвать аллергическую реакцию в другом теле. Но на поверхности эритроцитов находятся групповые антигены — от их наличия зависит, будут ли осложнения при переливании крови другой собаке.</p>
-                    <h5>Кошка может стать донором, если она: </h5>
-                    <p>- Старше одного года и младше семи лет, а лучше от полутора до пяти.<br/>- Весит не менее 4 кг.<br/>- Не имеет хронических заболеваний.<br/>- Достаточно упитана и обработана от паразитов.</p>
-                    <p>У кошек выделяют три группы крови: А, В и АВ — первые две встречаются чаще. В отличие от людей, среди кошек нет универсальных доноров, им нельзя переливать кровь другой группы — это может привести к летальному исходу.</p>
-                    <p>Перед переливанием проводят пробы на совместимость крови донора и реципиента, чтобы окончательно убедиться в том, что кровь подходит. </p>
-                    <strong>У кошек есть нюанс: один и тот же донор второй раз может не подойти ввиду возрастных изменений и развития индивидуальной непереносимости.<br/>У собак такое не встречается.</strong>
-                    <h5>Опасно ли быть донором кошке или собаке?</h5>
-                    <p>Донорство крови безопасно для питомца, и даже полезно. Перед процедурой он пройдет осмотр ветеринаром, сдаст необходимые анализы для исследования. Это позволит его хозяину узнать правильно ли питается его питомец, ведет ли он правильный образ жизни, есть ли у него какие-нибудь заболевания. При заборе крови ветеринар берет лишь допустимый для питомца объем крови, учитывая возраст, вес и особенности конкретной кошки или собаки. </p>
-                    <p>Во время процедуры, которая длится примерно полчаса, животному нужно спокойно лежать, поэтому ему могут ввести успокоительные. Эти препараты имеют короткое действие, безопасны, уменьшают стресс и делают саму процедуру более комфортной.</p>
-                    <h5>Животное-донор — это тоже очень важно</h5>
-                    <p>В обычной жизни редко кто задумывается о том, что их питомец должен стать донором. В основном на этот шаг идут те, кто лицом к лицу столкнулся когда-то с этой проблемой. Болезнь или травма животного приходит неожиданно. И его хозяину очень быстро нужно найти совместимого донора. </p>
-                    <p>Это очень трудно. Для кошек особенно. </p>
-                    <p>Донорство у животных не менее благородно, чем донорство у людей. Своевременно перелитая кровь может облегчить страдания другого живого существа и спасти ему жизнь.</p>
+                    <h3>Theater</h3>
+                    <img src={theater} alt={"logo"} className='circus'/>
+                    <p>Theatre or theater is a collaborative form of performing art that uses live performers, typically actors or actresses, to present the experience of a real or imagined event before a live audience in a specific place, often a stage.
+                        The performers may communicate this experience to the audience through combinations of gesture, speech, song, music, and dance.
+                        Elements of art, such as painted scenery and stagecraft such as lighting are used to enhance the physicality, presence and immediacy of the experience.
+                        The specific place of the performance is also named by the word "theatre" as derived from the Ancient Greek θέατρον (théatron, "a place for viewing"), itself from θεάομαι (theáomai, "to see", "to watch", "to observe").
+                        Modern Western theatre comes, in large measure, from the theatre of ancient Greece, from which it borrows technical terminology, classification into genres, and many of its themes, stock characters, and plot elements.
+                        Theatre artist Patrice Pavis defines theatricality, theatrical language, stage writing and the specificity of theatre as synonymous expressions that differentiate theatre from the other performing arts, literature and the arts in general.
+                        Modern theatre includes performances of plays and musical theatre.
+                        The art forms of ballet and opera are also theatre and use many conventions such as acting, costumes and staging.
+                        They were influential to the development of musical theatre; see those articles for more information.</p>
                 </div>
             </div>
         );

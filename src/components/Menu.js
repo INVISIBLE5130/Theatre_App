@@ -1,12 +1,9 @@
 import React, {Component} from 'react';
 import { Typography, Link } from '@material-ui/core'
-import logo from '../images/AD.png'
+import logo from '../images/logo.png'
 import '../styles/Menu.css';
 
 class Menu extends Component{
-    constructor(props){
-        super(props)
-    }
 
     render(){
         return (
@@ -15,29 +12,29 @@ class Menu extends Component{
                     <Link href="/">
                         <img src={logo} alt={"logo"} className={'logo'}/>
                     </Link>
-                    <Link href="/animals" className="link">
-                        Animals
+                    <Link href="/actors" className="link">
+                        Actors
                     </Link>
-                    <Link href="/bloodBanks" className="link">
-                        Blood Banks
+                    <Link href="/roles" className="link">
+                        Roles
                     </Link>
-                    <Link href="/bloodRequests" className="link">
-                        Blood Requests
+                    <Link href="/schedules" className="link">
+                        Schedules
                     </Link>
-                    <Link href="/clinics" className="link">
-                        Clinics
+                    <Link href="/shows" className="link">
+                        Shows
                     </Link>
-                    <Link href="/donations" className="link">
-                        Donations
+                    <Link href="/theaters" className="link">
+                        Theaters
                     </Link>
-                    <Link href="/medicalChecks" className="link">
-                        Medical Checks
+                    <Link href="/tickets" className="link">
+                        Tickets
                     </Link>
-                    <Link href="/staff" className="link">
-                        Staff
+                    <Link href="/visitors" className="link">
+                        Visitors
                     </Link>
-                    <Link href="/users" className="link">
-                        Users
+                    <Link href="/workers" className="link">
+                        Workers
                     </Link>
                 </Typography>
             </div>
